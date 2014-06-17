@@ -13,14 +13,12 @@ lesson.selectors = {
 
 	exercise_1: function () {
 		// Select the header element from the test page
-
-		return ;
+		return $("header");
 	},
 
 	exercise_2: function () {
 		// Select the first tweet on the page
-
-		return ;
+		return $("li:first");
 	},
 
 	exercise_3: function () {
